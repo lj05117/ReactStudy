@@ -5,13 +5,28 @@
   </body>
   <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
-  <script>
-    const span = React.createElement("span"); //따옴표 안에 들어가는 말은 HTML태그와 똑같은 이름이어야 한다.
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
     const root = document.getElementById("root");
-    //아직 body안에 span태그가 들어가지 않았다.
-    //react가 body안에 span태그를 생성하게 만들려면 react-dom을 사용해야 한다.
-    //react JS는 어플리케이션이 interactive 하도록 만들어주는 library이고 (엔진과 같다. interactive한 ui를 만들 수 있게 한다.)
-    //react-dom 은 라이브러리 또는 패키지인데, React element들을 HTML body에 둘 수 있도록 해준ㄷㅏ.(html에 react element를 두는 역할)
-    ReactDOM.render(span); //render : 사용자에게 보여준다.
+    function Title() {
+      return (
+        <h3 id="title" onMouseEnter={() => console.log("mouse enter")}>
+          Hello I'm a title
+        </h3>
+      );
+    }
+    const Button = () => (
+      <button style={{ backgroundColor: "tomato" }} onClick={() => console.log("im clicked")}>
+        "Click me"
+      </button>
+    );
+
+    const Container = () => (
+      <div>
+        <Title />
+        <Button />
+      </div>
+    );
+    ReactDOM.render(<Container />, root);
   </script>
 </html>
