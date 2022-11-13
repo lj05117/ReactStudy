@@ -1,0 +1,7 @@
+/*이름.module.css해놓으면 js에서 import해서 
+css에 대입?해서 쓸 수 있는듯??
+
+그리고 한 번 입혀놓으면 css 변경돼도 속성 그대로 남아있음*/
+#eng{
+    color:brown;
+}
