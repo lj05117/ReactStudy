@@ -5,6 +5,7 @@ import Introduce from "./elements/Introduce";
 import Contact from "./elements/Contact";
 import Skill from "./elements/Skill";
 import Project from "./elements/Project";
+import Header from "./elements/Header";
 
 const App = () => {
   // const [ref, inView]=useInView()
@@ -18,7 +19,7 @@ const App = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header/>
     <Introduce />
     <Skill />
     <Project/>
