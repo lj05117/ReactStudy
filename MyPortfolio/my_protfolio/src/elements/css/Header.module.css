@@ -1,0 +1,17 @@
+.nav{
+    background-color: beige;
+    width:100%;
+    height:7vh;
+    
+}
+.headerUl{
+    list-style: none;
+    line-height: 7vh;
+    text-align: right;
+    margin:0;
+}
+.headerLi{
+    width:100px;
+    text-align: center;
+    display: inline-block;
+}
