@@ -1,9 +1,8 @@
-import styles from "./Introduce.module.css";
-
+import React from "react";
 function Introduce() {
   return (
     <div >
-      <h1 ID={styles.eng}>Welcome back!</h1>
+      <h1>Introduce</h1>
     </div>
   ); 
 }
