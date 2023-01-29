@@ -7,6 +7,7 @@ import Contact from "./elements/Contact";
 import Skill from "./elements/Skill";
 import Project from "./elements/Project";
 import Header from "./elements/Header";
+import Home from "./elements/Home";
 
 // const App = () => {
 //   // const [ref, inView]=useInView()
@@ -23,6 +24,7 @@ root.render(
     <BrowserRouter>
       <Header/>
       <Routes>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/introduce" element={<Introduce />}></Route>   
         <Route path="/skill" element={<Skill />}></Route>
         <Route path="/project" element={<Project />}></Route>

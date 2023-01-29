@@ -10,6 +10,12 @@
     text-align: right;
     margin:0;
 }
+.mainIcon{
+    height: 30px;
+    position:relative;
+    float: left;
+    top:10px;
+}
 .headerLi{
     width:100px;
     text-align: center;

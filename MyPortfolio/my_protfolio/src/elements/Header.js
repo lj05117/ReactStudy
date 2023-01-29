@@ -5,6 +5,7 @@ function Header() {
     return (
         <nav className={`${style.nav}`}>
             <ul className={`${style.headerUl}`}>
+                <Link to="/"><img src={require('./img/main_menu_icon.png')} className={ `${style.mainIcon}`} /></Link>
                 <Link to="/introduce"><li className={`${style.headerLi}`}>Introduce</li></Link>
                 <Link to="/skill"><li className={`${style.headerLi}`}>Skill</li></Link>
                 <Link to="/project"><li className={`${style.headerLi}`}>Project</li></Link>
