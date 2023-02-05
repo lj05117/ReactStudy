@@ -1,3 +1,6 @@
+# Intersection Observer API를 이용한 무한 스크롤
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

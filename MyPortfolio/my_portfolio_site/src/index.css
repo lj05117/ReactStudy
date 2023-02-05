@@ -1,0 +1,29 @@
+.body{
+    margin: 0;
+    background-color: #282B35;
+}
+
+.header{
+    /* test-transform:uppercase; */
+    top:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #6495EF;
+}
+
+.gap{
+    height: 100vh;
+}
+
+img[alt="temp"]{
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    max-width: 900px;
+    width: 95%;
+}
